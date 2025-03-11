@@ -1,0 +1,177 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+body{
+    background: url(/TugasCheva/Tugas4/img/joanna-kosinska-1_CMoFsPfso-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    line-height: 1.5;
+    
+}
+
+h3{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 38px;
+    color: #333;
+}
+.container{
+    background:whitesmoke;
+    width: 30%;
+    height: 10%;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    
+}
+
+.form-group {
+    margin-bottom: 0.2rem;
+}
+
+.form-group label{
+    display:block;
+    margin-bottom: 0.5rem;
+    font-size: 18px;
+    color: #555;
+
+}
+
+.form-group input[type= "text"]{
+    margin-top: 2px;
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid grey;
+    font-size: 1rem;
+    outline: none;
+
+}
+
+.form-group textarea{
+    width: 100%;
+    height: auto;
+    border: 2px solid grey;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+.form-group input[type="date"]{
+    width: 100%;
+    padding: 0.6rem;
+    font-size: 1.2rem;
+}
+
+.form-group button{
+    width: 100%;
+    height: 50px;
+    margin-top: 1rem;
+    background-color: rgba(212, 177, 22, 0.703);
+    border: 0px;
+    font-size: 1rem; 
+    font-weight: bold; 
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(128, 103, 21);
+}
+
+#notes-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 15px;
+    width: 80%;
+    margin-bottom: 10px;
+
+ 
+}
+.tugas h4 {
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+.container-2 p {
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+
+#tgl{
+    color: grey;
+}
+.tugas{
+    background:whitesmoke;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    max-width: 100%; 
+    word-wrap: break-word;
+}
+
+/* .tugas-2{
+    background:whitesmoke;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tugas-3{
+    background:whitesmoke;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tugas-4{
+    background:whitesmoke;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tugas-5{
+    background:whitesmoke;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+} */
+
+.hapus button{
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold; 
+    color: #fff;
+    background-color: rgb(221, 50, 50);
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(128, 103, 21);
+}
+
+    
